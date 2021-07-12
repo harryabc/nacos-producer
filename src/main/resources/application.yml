@@ -6,7 +6,7 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 83971064c2bd.c.staros.cloud:80
+        server-addr: ${NACOS_HOST}:8848
 management:
   endpoints:
     web:
