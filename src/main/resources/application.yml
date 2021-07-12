@@ -1,0 +1,20 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: spring-cloud-nacos-producer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 83971064c2bd.c.staros.cloud:80
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+# 日志
+logging:
+  file: /application/applogs/producer.log
