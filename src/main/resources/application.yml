@@ -17,4 +17,4 @@ management:
       show-details: always
 # 日志
 logging:
-  file: /application/applogs/producer.log
+  file: /application/applogs/producer1.log
